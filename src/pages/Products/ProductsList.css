@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.product__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.product__item{
+    width: 40%;
+    margin: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product__item img{
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.product__price-new{
+    font-size: 20px;
+    font-weight: 700;
+    color: green;
+}
+
+.product__price-old{
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+}
+
+.product__discount{
+    font-size: 16px;
+    font-weight: 700;
+}
